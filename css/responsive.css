@@ -198,14 +198,14 @@
 
  
 
-@media screen and (width: 320px) {
+@media screen and (min-width: 320px) {
   .logo {
     height: 36px !important;
     margin-top: 6px !important;
     margin-left: -235px !important;
   }
 }
-@media screen and (width: 375px) {
+@media screen and (min-width: 375px) {
     .logo {
      
         height: 41px !important;
@@ -213,12 +213,19 @@
         margin-left: -280px !important;
   }
 }
-@media screen and (width: 425px) {
-    .logo {
-        height: 43px !important;
-        margin-top: 2px !important;
-        margin-left: -312px !important;
+@media screen and (min-width: 425px) {
+    .brand {
+      height: 44px !important;
+      margin-top: -40px !important;
+      margin-left: -320px !important;
   }
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 59px !important;
+    margin-top: -14px !important;
+    margin-left: -50px !important;
+}
 }
 @media screen and (max-width: 320px) {
   .phonenum {
@@ -260,24 +267,44 @@
       padding: 10px;
     }
   }
-@media screen and (min-width: 320px) {
+/* @media screen and (min-width: 320px) {
     .email {
      margin-left: -14px !important;
     }
-  }
+  } */
   @media screen and (min-width: 425px) {
     .email {
      margin-left: -1px !important;
     }
   }
-@media screen and (width: 320px) {
+  @media screen and (min-width: 1024px) {
+    .email {
+     margin-left: 0px !important;
+    }
+  }
+  @media screen and (min-width: 1440px) {
+    .email {
+     margin-left: 0px !important;
+    }
+  }
+@media screen and (min-width: 320px) {
     .email1{
      margin-left: -20px !important;
     }
   }
-@media screen and (min-width: 375px) {
+  @media screen and (min-width: 425px) {
+    .email1{
+     margin-left: 0px !important;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .email1{
+     margin-left: 0px !important;
+    }
+  }
+/* @media screen and (min-width: 375px) {
     .email {
      margin-left: -14px !important;
     }
-  }
+  } */
 
