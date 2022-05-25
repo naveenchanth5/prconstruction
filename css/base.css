@@ -980,7 +980,7 @@ ul.top-social li a:hover{
     color: #fff;
 	content: '\e649';
 	border-radius: none;
-	top: 1px;
+	
 }
 .list-1.grey-bullet li:before{
 	background-color: #999;
