@@ -139,7 +139,7 @@ textarea:-ms-input-placeholder{
 .bg-white{ background-color: #fff; }
 .bg-grey{ background-color: #f7f7f7; }
 .bg-yellow{ background-color: #FAB702; }
-.bg-dark{ background-color: #111; }
+.bg-dark{ background-color: #fff !important; }
 
 /* Text Color
    ================================= */
